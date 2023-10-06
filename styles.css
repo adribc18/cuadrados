@@ -1,0 +1,23 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 200px;
+
+  }
+  
+  .box {
+    width: 130px;
+    height: 130px;
+    background-color:#272829 ;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #A8A196;
+  }
+  
+  body {
+    background-color: #F1F0E8;
+  }
